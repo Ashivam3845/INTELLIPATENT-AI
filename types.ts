@@ -76,14 +76,20 @@ export interface AppState {
     deep: boolean;
     chat: boolean;
     search: boolean;
+    claimMapping: boolean;
   };
   error: string | null;
   chatHistory: ChatMessage[];
   chatInstance: Chat | null;
   userLocation: { latitude: number; longitude: number } | null;
-  searchMode: 'analyze' | 'search';
+  searchMode: 'analyze' | 'search' | 'claimMapping';
   searchQuery: string;
   searchResults: PriorArtSearchResult[] | null;
   searchSources: GroundingSource[] | null;
   searchError: string | null;
+  theme: 'light' | 'dark';
+  subjectClaims: string;
+  referenceClaims: string;
+  claimMappingResult: ClaimMappingResult | null;
+  claimMappingError: string | null;
 }
