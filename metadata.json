@@ -1,0 +1,7 @@
+{
+  "name": "IntelliPatent AI Assistant",
+  "description": "An AI-driven patent analytics assistant to summarize inventions, find similar patents, visualize innovation trends, and answer questions using Gemini.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
