@@ -386,7 +386,7 @@ const App: React.FC = () => {
             spellCheck="false"
           />
           <pre className="absolute inset-0 w-full h-full p-3 overflow-auto pointer-events-none" aria-hidden="true">
-            <code ref={codeRef} className="language-js">
+            <code ref={codeRef} className="language-plaintext">
                 {value + '\n'}
             </code>
           </pre>
